@@ -24,6 +24,8 @@ import {
 } from 'lucide-react';
 import ServiceModal from './components/ServiceModal';
 import ServicesPage from './components/ServicesPage';
+import logo from './assets/logo.png'; // <-- Add this line
+
 
 function App() {
   const phoneNumber = "7742861375";
@@ -271,9 +273,12 @@ function App() {
                 >
                   <ArrowLeft className="w-6 h-6 text-gray-600" />
                 </button>
-                <div className="w-10 h-10 bg-gradient-to-r from-orange-500 to-green-600 rounded-lg flex items-center justify-center">
-                  <Building2 className="w-6 h-6 text-white" />
-                </div>
+                {/* Replace icon with logo */}
+                <img
+                  src={logo}
+                  alt="eMitra Logo"
+                  className="w-15 h-10 rounded-lg object-cover bg-white border"
+                />
                 <div>
                   <h1 className="text-xl font-bold text-gray-900">eMitra केंद्र</h1>
                   <p className="text-sm text-gray-600">All Services</p>
@@ -300,11 +305,14 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-gradient-to-r from-orange-500 to-green-600 rounded-lg flex items-center justify-center">
-                <Building2 className="w-6 h-6 text-white" />
-              </div>
+              {/* Replace icon with logo */}
+              <img
+                src={logo}
+                alt="eMitra Logo"
+                className="w-15 h-10 rounded-lg object-cover bg-white border"
+              />
               <div>
-                <h1 className="text-xl font-bold text-gray-900">eMitra केंद्र</h1>
+                <h1 className="text-xl font-bold text-gray-900">RAMDEV eMitra</h1>
                 <p className="text-sm text-gray-600">Digital Service Center</p>
               </div>
             </div>
@@ -330,10 +338,10 @@ function App() {
         <div className="max-w-4xl mx-auto text-center">
           <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-8 shadow-xl">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              स्वागत है
+              WELCOME
             </h1>
             <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-6">
-              हमारे eMitra केंद्र में!
+              RAMDEV eMitra CENTER
             </h2>
             <p className="text-lg text-gray-700 mb-8">
               सभी सरकारी सेवाएं एक जगह - तेज़, सरल और विश्वसनीय<br />
@@ -467,9 +475,9 @@ function App() {
                   📍 पता / Address
                 </h3>
                 <p className="text-gray-700">
-                  Shop No. 123, Main Market<br />
-                  Near Post Office<br />
-                  Jaipur, Rajasthan - 302001
+                  Shop no 05, Choudhary market,<br />
+                   keriya road, haliwav,<br />
+                  Sanchore, Rajasthan - 343041<br />
                 </p>
               </div>
             </div>
@@ -501,13 +509,16 @@ function App() {
         </div>
       </section>
 
-      {/* Footer */}
+       {/* Footer */}
       <footer className="bg-gray-900 text-white py-8 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <div className="flex items-center justify-center space-x-3 mb-4">
-            <div className="w-8 h-8 bg-gradient-to-r from-orange-500 to-green-600 rounded-lg flex items-center justify-center">
-              <Building2 className="w-5 h-5 text-white" />
-            </div>
+            {/* Replace icon with logo */}
+            <img
+              src={logo}
+              alt="eMitra Logo"
+              className="w-15 h-8 rounded-lg object-cover bg-white border"
+            />
             <h3 className="text-xl font-bold">eMitra केंद्र</h3>
           </div>
           <p className="text-gray-400 mb-4">
