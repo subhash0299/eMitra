@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, FileText, Clock, AlertCircle, CheckCircle } from 'lucide-react';
+import { X, FileText,Phone, MessageCircle, Clock, AlertCircle, CheckCircle } from 'lucide-react';
 
 interface ServiceModalProps {
   isOpen: boolean;
@@ -117,20 +117,22 @@ const ServiceModal: React.FC<ServiceModalProps> = ({ isOpen, onClose, service })
             <p className="text-gray-700 mb-4">
               इस सेवा के लिए आवेदन करने में सहायता के लिए हमसे संपर्क करें
             </p>
-            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+            <div className="flex flex-row gap-3 justify-center">
               <a
-                href="tel:+91-9876543210"
-                className="bg-green-600 text-white px-6 py-2 rounded-lg hover:bg-green-700 transition-colors font-semibold"
+                href="tel:+91-7742861375"
+                className="bg-green-600 text-white px-6 py-2 rounded-lg hover:bg-green-700 transition-colors font-semibold flex items-center justify-center min-w-[120px]"
               >
-                📞 कॉल करें
+                <Phone className="w-6 h-6 mr-2" />
+                <span>Call</span>
               </a>
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/7742861375"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-green-500 text-white px-6 py-2 rounded-lg hover:bg-green-600 transition-colors font-semibold"
+                className="bg-green-500 text-white px-6 py-2 rounded-lg hover:bg-green-600 transition-colors font-semibold flex items-center justify-center min-w-[120px]"
               >
-                📱 WhatsApp
+                <MessageCircle className="w-6 h-6 mr-2" />
+                <span>WhatsApp</span>
               </a>
             </div>
           </div>
