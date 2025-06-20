@@ -26,8 +26,8 @@ import ServiceModal from './components/ServiceModal';
 import ServicesPage from './components/ServicesPage';
 
 function App() {
-  const phoneNumber = "+91-9876543210";
-  const whatsappNumber = "919876543210";
+  const phoneNumber = "7742861375";
+  const whatsappNumber = "7742861375";
   
   const [selectedService, setSelectedService] = useState<any>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
