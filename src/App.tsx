@@ -356,10 +356,16 @@ function App() {
                 <MessageCircle className="w-5 h-5" />
                 <span>📱 WhatsApp</span>
               </a>
-              <button className="contact-button bg-orange-600 text-white px-8 py-3 rounded-xl flex items-center justify-center space-x-2 hover:bg-orange-700 font-semibold">
+                              <a
+                href="https://www.google.com/maps/place/Ramdev+Photo+Studio+%26+E-Mitra+Rmgb+bank+bc+Rs-Cit+Center/@24.9952482,71.6170878,58m/data=!3m1!1e3!4m15!1m8!3m7!1s0x394493991634c7d3:0x40c1ba62b49ea1b6!2sHaliwaw,+Rajasthan+343041!3b1!8m2!3d24.9939948!4d71.6169017!16s%2Fg%2F1tnhwqyy!3m5!1s0x3944938c3b8c75bb:0x2681e687a12e4be4!8m2!3d24.9953585!4d71.6172777!16s%2Fg%2F11fn22p841?entry=ttu&g_ep=EgoyMDI1MDYxNi4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="contact-button bg-orange-600 text-white px-8 py-3 rounded-xl flex items-center justify-center space-x-2 hover:bg-orange-700 font-semibold">
                 <MapPin className="w-5 h-5" />
-                <span>📍 स्थान देखें</span>
-              </button>
+                <span>📍 map</span>
+              </a>
+
+
             </div>
           </div>
         </div>
@@ -493,10 +499,15 @@ function App() {
                 <span>📱 WhatsApp पर संदेश</span>
               </a>
               
-              <button className="contact-button w-full bg-red-600 text-white p-4 rounded-xl flex items-center justify-center space-x-3 hover:bg-red-700 text-lg font-semibold">
+              <a
+                href="https://www.google.com/maps/place/Ramdev+Photo+Studio+%26+E-Mitra+Rmgb+bank+bc+Rs-Cit+Center/@24.9952482,71.6170878,58m/data=!3m1!1e3!4m15!1m8!3m7!1s0x394493991634c7d3:0x40c1ba62b49ea1b6!2sHaliwaw,+Rajasthan+343041!3b1!8m2!3d24.9939948!4d71.6169017!16s%2Fg%2F1tnhwqyy!3m5!1s0x3944938c3b8c75bb:0x2681e687a12e4be4!8m2!3d24.9953585!4d71.6172777!16s%2Fg%2F11fn22p841?entry=ttu&g_ep=EgoyMDI1MDYxNi4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="contact-button w-full bg-red-600 text-white p-4 rounded-xl flex items-center justify-center space-x-3 hover:bg-red-700 text-lg font-semibold"
+              >
                 <MapPin className="w-6 h-6" />
                 <span>📍 Google Maps पर देखें</span>
-              </button>
+              </a>
 
               <div className="bg-orange-50 p-4 rounded-xl border border-orange-200">
                 <p className="text-center text-orange-800 font-semibold">
